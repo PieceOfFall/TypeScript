@@ -15,3 +15,10 @@ const minus = (num1: number, num2: number): number => {
 console.log(add(1, 2));
 
 console.log(minus(3, 1));
+
+// 写法二:
+let minus2: (num1: number, num2: number) => number; // 声明该参数类型和返回值类型的函数
+
+minus2 = (num1: number, num2: number) => { // 定义
+    return num1 - num2;
+}
