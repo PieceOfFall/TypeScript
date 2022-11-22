@@ -4,8 +4,10 @@
  * @Description: void类型、函数可选参数
  */
 
+// 无返回值为void类型,此时返回一个值则编译器报错
 function greet(name: string): void {
     console.log(`${name},你好`);
+    // return 1;
 }
 greet("老师")
 
