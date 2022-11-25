@@ -27,7 +27,6 @@ let person: IPerson = {
 }
 
 // 类型别名方式声明类型
-
 type IPerson2 = {
     name: string
     age: number
